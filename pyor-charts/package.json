@@ -1,5 +1,5 @@
 {
-  "name": "pyor-charts",
+  "name": "e-charts",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "autoprefixer": "10.4.14",
     "next": "13.4.13",
+    "postcss": "8.4.27",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.3.3",
+    "echarts": "^5.4.3",
+    "echarts-for-react": "^3.0.2",
+    "multiselect-react-dropdown": "^2.0.25"
   }
 }
